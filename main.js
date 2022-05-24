@@ -47,7 +47,7 @@ function draw(){
             noFill();
             stroke(r,g,b);
             rect(object[i].x,object[i].y, object[i].width,object[i].height)
-            if(object[i].label == "Person"){
+            if(object[i].label == "person"){
                 document.getElementById("baby_status").innerHTML = "baby found";
             }
             else{
